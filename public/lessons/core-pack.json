@@ -1,0 +1,108 @@
+[
+  {
+    "id": "L1-1",
+    "title": "Hàng giữa (trái→phải)",
+    "type": "sequence",
+    "pool": ["a", "s", "d", "f", "j", "k", "l", ";"],
+    "pattern": "ascend",
+    "chunk": 4,
+    "repeat": 8,
+    "goal": { "wpm": 12, "accuracy": 90 },
+    "allowBackspace": false
+  },
+  {
+    "id": "L1-2",
+    "title": "Hàng trên (trái→phải)",
+    "type": "sequence",
+    "pool": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
+    "pattern": "ascend",
+    "chunk": 5,
+    "repeat": 6,
+    "goal": { "wpm": 13, "accuracy": 90 },
+    "allowBackspace": false
+  },
+  {
+    "id": "L1-3",
+    "title": "Hàng dưới (trái→phải)",
+    "type": "sequence",
+    "pool": ["z", "x", "c", "v", "b", "n", "m", ",", ".", "/"],
+    "pattern": "ascend",
+    "chunk": 5,
+    "repeat": 6,
+    "goal": { "wpm": 14, "accuracy": 90 },
+    "allowBackspace": false
+  },
+  {
+    "id": "L2-1",
+    "title": "Ngón trỏ trái (lẫn hàng)",
+    "type": "finger-mix",
+    "pool": ["r", "f", "v", "t", "g", "b"],
+    "chunk": 6,
+    "repeat": 6,
+    "goal": { "wpm": 16, "accuracy": 92 },
+    "allowBackspace": false
+  },
+  {
+    "id": "L2-2",
+    "title": "Ngón trỏ phải (lẫn hàng)",
+    "type": "finger-mix",
+    "pool": ["y", "h", "n", "u", "j", "m"],
+    "chunk": 6,
+    "repeat": 6,
+    "goal": { "wpm": 16, "accuracy": 92 },
+    "allowBackspace": false
+  },
+  {
+    "id": "L2-3",
+    "title": "Ngón giữa hai tay",
+    "type": "finger-mix",
+    "pool": ["e", "d", "i", "k"],
+    "chunk": 4,
+    "repeat": 10,
+    "goal": { "wpm": 17, "accuracy": 92 },
+    "allowBackspace": false
+  },
+  {
+    "id": "L3-1",
+    "title": "Vùng trung tâm (random)",
+    "type": "region-random",
+    "pool": ["f", "j", "d", "k", "s", "l", "a", ";"],
+    "minRun": 2,
+    "maxRepeat": 2,
+    "length": 120,
+    "goal": { "wpm": 18, "accuracy": 93 },
+    "allowBackspace": false
+  },
+  {
+    "id": "L3-2",
+    "title": "Hai hàng trên+dưới (random)",
+    "type": "region-random",
+    "pool": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "z", "x", "c", "v", "b", "n", "m"],
+    "minRun": 2,
+    "maxRepeat": 2,
+    "length": 140,
+    "goal": { "wpm": 19, "accuracy": 93 },
+    "allowBackspace": false
+  },
+  {
+    "id": "L4-1",
+    "title": "1 phút chính xác",
+    "type": "timed",
+    "pool": ["a", "s", "d", "f", "j", "k", "l", ";"],
+    "timeLimitSec": 60,
+    "goal": { "wpm": 22, "accuracy": 94, "timeSec": 60 },
+    "allowBackspace": true
+  },
+  {
+    "id": "L4-2",
+    "title": "Combo 10 phím",
+    "type": "region-random",
+    "pool": ["a", "s", "d", "f", "j", "k", "l", ";"],
+    "minRun": 1,
+    "maxRepeat": 1,
+    "length": 100,
+    "goal": { "wpm": 22, "accuracy": 94 },
+    "allowBackspace": true
+  }
+]
+
