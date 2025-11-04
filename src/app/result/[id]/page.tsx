@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Button from '@/components/Button';
-import { calculateWPM, calculateAccuracy, type TypingState } from '@/lib/typing/evaluate';
+import { calculateWPM, calculateAccuracy } from '@/lib/typing/evaluate';
 import type { Lesson } from '@/lib/lesson-engine/types';
 import { t } from '@/lib/i18n';
 

@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { getFingerForKey, getFingerColor, type FingerId } from '@/lib/typing/fingerMap';
+import { getFingerForKey, getFingerColor } from '@/lib/typing/fingerMap';
 import { normalizeKey } from '@/lib/typing/normalizeKey';
 
 // Full keyboard layout with proper spacing
